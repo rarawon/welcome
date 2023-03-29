@@ -1,0 +1,466 @@
+body {
+  background-color: #615b6d;
+}
+
+#navbar {
+  /* border: 1px solid blue; */
+  background-color: #212529;
+  border: 1px solid rgb(173, 173, 173);
+  /* padding: 0;
+  margin: 0; */
+}
+
+.maincontainer {
+  margin-top: 40px;
+}
+
+
+.writingbox {
+  background: rgb(66, 66, 66) !important;
+  color: #ffffff;
+  padding-top: 20px;
+  display: flex;
+  margin-bottom: 10px;
+
+  /* flex container로 설정 */
+  /* height: 600px; */
+}
+
+.boardbox {
+  border: 1px solid rgb(173, 173, 173);
+  background: rgb(66, 66, 66);
+  padding-top: 10px;
+}
+
+#제목 {
+  border-radius: 5px !important;
+  width: 100% !important;
+  padding: 5px !important;
+}
+
+/* 자식 요소들에게 flex: 1 속성을 주어 동적으로 높이 조절 */
+.boarditem {
+  flex: 1;
+}
+
+.comments {
+  /* border: 3px solid rgb(168, 168, 168); */
+  margin-bottom: 10px;
+}
+
+#writingcomment {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+dl {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 0;
+  padding-right: 15px;
+  border-right: 1px solid #ccc;
+
+  /* vertical-align: middle; */
+}
+
+dt {
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+
+dd {
+  display: inline-block;
+  /* vertical-align: middle; */
+}
+
+
+textarea {
+  height: 00px !important;
+}
+
+
+.note-editable {
+  background-color: #fff;
+}
+
+#title {
+  width: 90%;
+}
+
+hr {
+  background: whitesmoke;
+  height: 2px;
+  border: 0;
+}
+
+.caption {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.side-nav-link {
+  /* border: 1px solid brown; */
+  color: white;
+  padding-left: 40px;
+}
+
+/* 캐러셀  크기 */
+#carouselExampleCaptions {
+  width: 100%;
+  height: 150px;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.d-block {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#bestrecipe {
+  height: 300px !important;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  object-fit: cover;
+}
+
+#goodmark {
+  width: 130px;
+  height: 100px;
+}
+
+.card {
+  background: rgb(62, 71, 67);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.recipecard {
+  padding: 0;
+  margin: 0;
+  background: rgba(62, 71, 67, 0.5);
+}
+
+.recipetext {
+  padding-top: 10px;
+}
+
+.recipemark {
+  margin: 0;
+  padding: 0;
+}
+
+
+.maincard-text {
+  font-weight: bold !important;
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.bold {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+
+
+
+.input-form {
+  max-width: 680px;
+
+  margin-top: 80px;
+  padding: 32px;
+
+  background: #fff;
+
+  border-radius: 10px;
+
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15)
+}
+
+#signup {
+  background: rgb(40, 46, 43) !important;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+#writing {
+  background: rgb(40, 46, 43) !important;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+#certify_btn {
+  text-align: center;
+  margin-top: 24px;
+  width: 100px;
+}
+
+.table-dark {
+  border: 1px solid rgb(138, 138, 138) !important;
+}
+
+.h1-clock {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(196, 196, 196);
+  border: 1px solid rgb(138, 138, 138);
+  margin-bottom: 10px;
+}
+
+.accordion {
+  margin-bottom: 5px;
+}
+
+.accordion-button {
+  background: rgb(66, 66, 66) !important;
+  color: #ffffff;
+}
+
+.accordion-item {
+  background: rgb(66, 66, 66) !important;
+}
+
+.accordion-body {
+  color: #d6d6d6;
+}
+
+.day {
+  text-align: center;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+
+.cursor {
+  cursor: pointer;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.title {
+  text-align: left;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.pagination .page-link {
+  color: rgb(255, 255, 255);
+  background-color: #212529 !important;
+}
+
+td {
+  white-space: nowrap;
+  /* 한 줄에 표시합니다. */
+  overflow: hidden;
+  /* 넘칠 경우 숨깁니다. */
+  text-overflow: ellipsis;
+  /* 생략 부호를 표시합니다. */
+}
+
+#제목 {
+  padding-left: 10px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+}
+
+#소개 {
+  padding-left: 10px !important;
+  font-weight: bold !important;
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 0 0 1px rgb(255, 255, 255) !important;
+  width: 100%;
+  height: 37px;
+  border-radius: 5px;
+}
+
+#contents {
+  border-radius: 5px;
+  width: 100%;
+  height: 400px !important;
+  padding: 10px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+}
+
+.addimages {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.intorcontents {
+  border-radius: 5px;
+  width: 100%;
+  /* height: auto; */
+  height: 40px;
+  /* 최소 높이 설정 */
+  /* height: 300px; */
+  padding: 10px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.postcontents {
+  border-radius: 5px;
+  width: 100%;
+  /* height: auto; */
+  height: auto;
+  min-height: 300px;
+  /* 최소 높이 설정 */
+  /* height: 300px; */
+  padding: 10px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.postcomments {
+  border-radius: 5px;
+  width: 100%;
+  /* height: auto; */
+  height: auto;
+  /* min-height: 300px; */
+  /* 최소 높이 설정 */
+  /* height: 300px; */
+  padding: 10px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+#comment {
+  border-radius: 5px;
+  width: 100%;
+  height: 100px !important;
+  padding: 10px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 1px rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.recipeth {
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* .down {
+
+
+} */
+
+.card-text {
+  margin-bottom: 2px;
+}
+
+.card-img-top1 {
+  max-height: 200px;
+  /* 이미지의 최대 높이를 200px로 제한 */
+  object-fit: cover;
+  /* 이미지 비율을 유지하면서 카드 크기에 맞추도록 함 */
+}
+
+/* .div {
+  height: 50px;
+} */
+
+.div {
+  position: relative;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.mark {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.col-4 {
+  margin-bottom: 5px;
+}
+
+.black {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.card-title {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.card-text,
+.down {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.card {
+  height: 425px;
+}
+
+.myprofile {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+  border-radius: 50px;
+}
